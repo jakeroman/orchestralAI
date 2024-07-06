@@ -20,6 +20,7 @@ jobs:
   deploy:
 
     runs-on: ubuntu-latest
+    environment: Publishing  # Specify the environment containing the secret
 
     steps:
     - uses: actions/checkout@v4
