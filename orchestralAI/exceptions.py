@@ -1,0 +1,2 @@
+class RemoteActionException(Exception):
+    pass
